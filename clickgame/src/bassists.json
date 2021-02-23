@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Flea",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjEzMDU5NjAzM15BMl5BanBnXkFtZTcwOTk2ODMwMg@@._V1_UY317_CR7,0,214,317_AL_.jpg",
+        "band": "Red Hot Chili Peppers",
+        "location": "LA"
+    },
+    {
+        "id": 2,
+        "name": "John Entwistle",
+        "image": "http://www.gstatic.com/tv/thumb/persons/362392/362392_v9_ba.jpg",
+        "band": "The Who",
+        "location": "London"
+    },
+    { 
+        "id": 3,
+        "name": "Geddy Lee",
+        "image": "https://cdn.mos.cms.futurecdn.net/Edh5SZPjBeQ7MMk6bNvw2X.jpg",
+        "band": "Rush",
+        "location": "Sunnyvale Trailer Park"
+    },
+    {
+        "id": 4,
+        "name": "Victor Wooten",
+        "image": "http://www.gstatic.com/tv/thumb/persons/652950/652950_v9_ba.jpg",
+        "band": "The Flecktones",
+        "location": "LA"
+    },
+    {
+        "id": 5,
+        "name": "Jaco Pastorious",
+        "image": "http://t3.gstatic.com/images?q=tbn:ANd9GcRHAvja7mG9lVB5WaYDzBkuTcq9dLy26ZA8yfAeW5kk-a0y0eyobeREO-p_CuLz",
+        "band": "Weather Report",
+        "location": "London"
+    },
+    { 
+        "id": 6,
+        "name": "Paul McCartney",
+        "image": "https://faroutmagazine.co.uk/static/uploads/2020/12/The-Beatles-song-Paul-McCartney-wrote-in-order-to-shut-up-The-Who.jpg",
+        "band": "The Beatles",
+        "location": "Liverpool"
+    },
+    {
+        "id": 7,
+        "name": "Lemmy",
+        "image": "https://i.pinimg.com/564x/f7/8f/4e/f78f4e0d0c9e4b7d9c1db41221bf3040.jpg",
+        "band": "Motorhead",
+        "location": "SF"
+    },
+    {
+        "id": 8,
+        "name": "Bootsy Collins",
+        "image": "https://i.pinimg.com/originals/c2/b9/5a/c2b95a9ca97f57060f7b1c4d68a31da5.jpg",
+        "band": "Parliament",
+        "location": "Outer Space"
+    },
+    { 
+        "id": 9,
+        "name": "Tina Weymouth",
+        "image": "http://t1.gstatic.com/images?q=tbn:ANd9GcSiIEqzqre6VmnHGf6DPVZ7MyF5kxkO5kRabQkiElMAbfm9J4R0dw_ueh5K7agX",
+        "band": "Talking Heads",
+        "location": "New York"
+    },
+    {
+        "id": 10,
+        "name": "Kim Deal",
+        "image": "http://t3.gstatic.com/images?q=tbn:ANd9GcR_diHpBbE8c5hCablIUpVEroEsvswH6OhX-5sggoUZgzPr6_mcSN80ATkfqaO0",
+        "band": "The Pixies",
+        "location": "LA"
+    },
+    {
+        "id": 11,
+        "name": "Thundercat",
+        "image": "http://www.gstatic.com/tv/thumb/persons/740079/740079_v9_bb.jpg",
+        "band": "Thundercat",
+        "location": "Tokyo"
+    },
+    { 
+        "id": 12,
+        "name": "Kim Gordon",
+        "image": "http://www.gstatic.com/tv/thumb/persons/370799/370799_v9_bb.jpg",
+        "band": "Sonic Youth",
+        "location": "Rochester"
+    }
+]
