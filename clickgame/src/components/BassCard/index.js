@@ -7,7 +7,6 @@ function BassCard(props) {
             <div className="img-container">
                 <img alt={props.name} src={props.image} />
             </div>
-
             <div className="content">
                 <ul>
                     <li>Name: {props.name}</li>
