@@ -13,7 +13,7 @@ class App extends Component {
     };
 
     reorderPictures = () => {
-        let pictures = this.state.pictures;
+        let pictures = this.state.images;
         for (let i= pictures.length -1; i>0; i--) {
             let j = Math.floor(Math.random()*(i-1));
             let swap = pictures[i];
@@ -50,20 +50,24 @@ class App extends Component {
 
     render() {
         return (
+            <div>
+            <Navbar score={this.state.score} topScore={this.state.topScore}/>
             <Wrapper>
-                <Navbar score={this.state.score} topScore={this.state.topScore}/>
-                {this.state.images.map(bassist => (
-                    <BassCard 
-                        clickBass={this.clickBass}
-                        id={bassist.id}
-                        key={bassist.id}
-                        name={bassist.name}
-                        image={bassist.image}
-                        band={bassist.band}
-                        location={bassist.location}
-                    />
-                ))}
+            
+                    {this.state.images.map(bassist => (
+                        <BassCard 
+                            clickBass={this.clickBass}
+                            id={bassist.id}
+                            key={bassist.id}
+                            name={bassist.name}
+                            image={bassist.image}
+                            band={bassist.band}
+                            location={bassist.location}
+                        />
+                    ))}
+            
             </Wrapper>
+            </div>
         );
     }
 }
