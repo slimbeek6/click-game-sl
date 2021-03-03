@@ -25,7 +25,6 @@ class App extends Component {
 
     clickedPic = id => {
         let clicked = this.state.clicked;
-        console.log(clicked);
         let score = this.state.score;
         let topScore = this.state.topScore;
 
