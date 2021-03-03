@@ -25,6 +25,7 @@ class App extends Component {
 
     clickedPic = id => {
         let clicked = this.state.clicked;
+        console.log(clicked);
         let score = this.state.score;
         let topScore = this.state.topScore;
 
@@ -35,6 +36,7 @@ class App extends Component {
             clicked.push(id);
             score +=1;
         }
+
         if (score > topScore) {
             topScore = score;
         }
@@ -43,7 +45,8 @@ class App extends Component {
 
     clickBass = (event) => {
         event.preventDefault();
-        let id = event.target.getAttribute("data-id");
+        let id = event.target.getAttribute("id");
+        console.log(id);
         this.clickedPic(id);
         this.reorderPictures();
     }
